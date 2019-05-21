@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: location-web
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security
+    username: root
+    password: mukesh
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+  mvc:
+    view:
+      prefix: WEB-INF/jsps/
+      suffix: .jsp
+server:
+  servlet:
+    context-path: /locationweb
+
+
