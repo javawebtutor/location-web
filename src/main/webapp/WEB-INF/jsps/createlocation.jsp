@@ -31,5 +31,6 @@
 			</table>
 			<input type="submit" value="Save" /></form>
 			${msg}
+			<a href="displaylocations">View All</a>
 </body>
 </html>
